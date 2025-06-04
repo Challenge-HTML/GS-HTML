@@ -1,7 +1,7 @@
 Tecnologia Utilizada:
 Nós usamos o HTML5, CSS, JAVASCRIPT, ibm cloud para o chatbot e o FIGMA para montar o layout do site e facilitar na hora da codificação do HTML.
 
-Segue o link do Repositorio do GITHUB:
+Segue o link do Repositorio do GITHUB: https://github.com/Challenge-HTML/GS-HTML
 
 Estruturas e Pastas dos arquivos:
 Primeiro criei a pasta chamada GS-HTML, já dentro dela criei o arquivo README.MD e o index.html esse arquivo sendo a home do site, após isso criei uma outra pasta dentro do GS-HTML chamada assets e dentro dela adicionei as páginas contato.html, faq.html, integrantes.html e cafdastro.html e dentro dessa mesma pasta criei outras pastas chamadas CSS que guarda o arquivo style.css, IMG que guarda as imagens que foram utilizadas no site e a pasta JS que guarda o arquivo script.js.
