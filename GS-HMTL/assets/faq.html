@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/imagem-icone.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js" defer></script>
+    <script>
+        window.watsonAssistantChatOptions = {
+            integrationID: "4cb11781-3cda-4e64-8f17-afbd66e24c10",
+            region: "us-south",
+            serviceInstanceID: "54699e77-49a8-4295-83ab-20931505aa11",
+            onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function () {
+            const t = document.createElement('script');
+            t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+            document.head.appendChild(t);
+        });
+    </script>
+    <title>FAQ</title>
+</head>
+
+<body>
+    <header>
+        <h1>Faq</h1>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="#">Faq</a></li>
+                    <li><a href="./contato.html">Contato</a></li>
+                    <li><a href="./integrantes.html">Integrantes</a></li>
+                    <li><a href="./cadastro.html">Cadastro</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+
+    <main>
+        <section class="faq-container">
+            <div class="faq-box box-azul-escuro">
+                <p>
+                    Se estiver procurando o endereço de um posto de ajuda acesse o chatbot
+                </p>
+            </div>
+
+            <div class="faq-box box-cinza">
+                <p>
+                    Se estiver procurando remédio acesse o nosso chatbot
+                </p>
+            </div>
+
+            <div class="faq-box box-azul-claro">
+                <p>
+                    Caso queira nós informar sobre o desastre acesse o chatbot
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2>Qualquer Duvida</h2>
+        <div>
+            <legend>Fale com o nosso bot</legend>
+        </div>
+    </footer>
+
+</body>
+
+</html>
